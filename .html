@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navcontainer">
+      <a href="#" class="nav-logo">
+        <div class="logo-icon"></div>
+        <i class="fa-solid fa-cube"></i>
+        <span class="logo-text">Nahid</span>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fa-solid fa-house"></i>
+            Home
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#explore" class="nav-link">
+            <i class="fa-solid fa-compass"></i>
+            Explore
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">
+            <i class="fa-solid fa-layer-group"></i>
+            Projects
+          </a>
+          <div class="dropdown">
+            <a href="#" class="dropdown-item">
+              <i class="fa-solid fa-palette"></i>
+              Design Tools
+            </a>
+            <a href="#" class="dropdown-item">
+              <i class="fa-solid fa-code"></i>
+              Development
+            </a>
+            <a href="#" class="dropdown-item">
+              <i class="fa-solid fa-chart-bar"></i>
+              Analytics
+            </a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fa-solid fa-users"></i>
+            Community
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#Contact" class="nav-link">
+            <i class="fa-solid fa-envelope"></i>
+            Connect
+          </a>
+        </li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="btn btn-login">
+          <i class="fa-solid fa-right-to-bracket"></i>
+          Login
+        </button>
+        <button class="btn btn-signup">
+          <i class="fa-solid fa-user-plus"></i>
+          Sign Up
+        </button>
+      </div>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <a href="#" class="mobile-nav-link">
+        <i class="fa-solid fa-house"></i>
+        Home
+      </a>
+      <a href="#explore" class="mobile-nav-link">
+        <i class="fa-solid fa-compass"></i>
+        Explore
+      </a>
+      <a href="#projects" class="mobile-nav-link">
+        <i class="fa-solid fa-layer-group"></i>
+        Projects
+      </a>
+      <a href="#" class="mobile-nav-link">
+        <i class="fa-solid fa-users"></i>
+        Community
+      </a>
+      <a href="#Contact" class="mobile-nav-link">
+        <i class="fa-solid fa-envelope"></i>
+        Connect
+      </a>
+      <div class="mobile-actions">
+        <button class="btn btn-login">
+          <i class="fa-solid fa-right-to-bracket"></i>
+          Login
+        </button>
+        <button class="btn btn-signup">
+          <i class="fa-solid fa-user-plus"></i>
+          Sign Up
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+
+  <section class="hero">
+    <div class="hero-container">
+      <!-- left Content -->
+      <div class="hero-content">
+        <h1> I'm Nahid Alom</h1>
+        <p>
+          I am a student at Sylhet Polytechnic Institute pursuing a Diploma in Computer Science And Technology, and I am
+          enthusiastic about <strong>Html, Css, JavaScript & React</strong>
+        </p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary">View portfolio</button>
+          <button class="btn btn-outline">Contact Me</button>
+        </div>
+      </div>
+
+      <!-- Right Image -->
+      <div class="hero-image">
+        <img src="alom.png" alt="portfolio">
+      </div>
+    </div>
+  </section>
+
+  <section class="explore" id="explore">
+    <div class="explore-container">
+      <h2 class="explore-title">Explore My Portfolio</h2>
+      <p class="explore-subtitle">
+        Discover my work, skills, and journey as a Developer 🚀
+      </p>
+      <div class="explore-grid">
+        <!-- card 1 -->
+        <div class="explore-card">
+          <div class="icon">💻</div>
+          <h3>Projects</h3>
+          <p>Check out my latest web development projects with modern UI and functionality.</p>
+          <a href="#" class="explore-btn">View Projects →</a>
+        </div>
+        <!-- card 2 -->
+        <div class="explore-card">
+          <div class="icon">⚡</div>
+          <h3>Skills</h3>
+          <p>Explore my technical stack including HTML, CSS, JavaScript, React and more.</p>
+          <a href="#" class="explore-btn">View Skills →</a>
+        </div>
+        <!-- card 3 -->
+        <div class="explore-card">
+          <div class="icon">🪪</div>
+          <h3>About Me</h3>
+          <p>Learn more about my passion for coding and my goals as a developer.</p>
+          <a href="#" class="explore-btn">Read More →</a>
+        </div>
+        <!-- card 4 -->
+        <div class="explore-card">
+          <div class="icon">📩</div>
+          <h3>Contact</h3>
+          <p>Have a project or collaboration in mind? Let's get in touch today!</p>
+          <a href="#" class="explore-btn">Contact Me →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="Projects-container">
+      <!--projects card-->
+      <div class="Projects-card">
+        <img src="alom.png" alt="portfolio 1">
+        <div class="project-content">
+          <h3>Portfolio Website</h3>
+          <p>A Responsive Personal Portfolio Website with modern UI, animations, and dark/light mode.</p>
+          <a href="#" class="project-btn">View Project →</a>
+        </div>
+      </div>
+
+      <!--projects card 2 -->
+      <div class="Projects-card">
+        <img src="alom.3.png" alt="portfolio 2">
+        <div class="project-content">
+          <h3>E-commerce Website</h3>
+          <p>A complete E-commerce website with product filters, responsive design, and smooth animation.</p>
+          <a href="#" class="project-btn">View Project →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Contact" id="Contact">
+    <div class="Contact-container">
+      <h2 class="contact-title">Let's work together</h2>
+      <p class="contact-subtitle">
+        Have a project idea or just want to say hi? Reach out! 🚀
+      </p>
+      <div class="contact-grid">
+        <!--left: Contact info -->
+        <div class="contact-info-card">
+          <h3>Contact Info</h3>
+          <p>Feel free to reach out via email, phone or social media.</p>
+
+          <div class="info-item">
+            <span class="icon">📍</span>
+            <p>Technical Road, Sylhet, Bangladesh</p>
+          </div>
+
+          <div class="info-item">
+            <span class="icon">✉</span>
+            <p>nahidalom057@gmail.com</p>
+          </div>
+
+          <div class="info-item">
+            <span class="icon">📞</span>
+            <p>+88 01711-996-750</p>
+            <p>+88 096-5806-5230</p>
+            <p>+88 096-4364-7041</p>
+          </div>
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61576187131005" class="social-btn">🗣 Facebook</a>
+            <a href="https://www.instagram.com/nahidalom70?igsh=YzljYTk1ODg3Zg==" class="social-btn">🗣 Instagram</a>
+            <a href="https://x.com/TheNahidAlom?s=09" class="social-btn">🗣 Twitter</a>
+          </div>
+        </div>
+
+        <!--Right contact form-->
+        <div class="contact-form-card">
+          <h3>Send Me a Message</h3>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Email" required>
+            </div>
+
+            <textarea placeholder="Your Message" rows="6" required></textarea>
+            <button class="btn btn-gradient" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
